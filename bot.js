@@ -11,7 +11,7 @@ client.on('ready', () => {
       console.log(`ON ${client.guilds.size} Servers '     Brodcast Bot ' `);
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`$bc |DF_Team`,"http://twitch.tv/Death Shop")
+client.user.setGame(`DM BC`,"http://twitch.tv/Death Shop")
 client.user.setStatus("dnd")
 });
 
@@ -207,7 +207,7 @@ client.on("message", async message => {
         let help = new Discord.RichEmbed()
             .setColor("RANDOM")
             .setThumbnail(message.author.avatarURL)
-            .setDescription(`**__برودكاست بوت | Version 1.1__ 
+            .setDescription(`**__DM BC__ 
 
             برودكاست عادي : ${prefix}bc
             معلومات عن السيرفر : ${prefix}server
